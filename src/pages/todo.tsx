@@ -1,12 +1,12 @@
 import type { NextPage } from 'next';
 import Layout from '../components/Layout';
 
-const Home: NextPage = () => {
+const Todo: NextPage = () => {
   return (
-    <Layout title="Home">
-      <p>Welcome to Nextjs</p>
+    <Layout title="Todo">
+      <p>Todo Page</p>
     </Layout>
   );
 };
 
-export default Home;
+export default Todo;

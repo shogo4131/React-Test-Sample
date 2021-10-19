@@ -1,12 +1,12 @@
 import type { NextPage } from 'next';
 import Layout from '../components/Layout';
 
-const Home: NextPage = () => {
+const Context: NextPage = () => {
   return (
-    <Layout title="Home">
-      <p>Welcome to Nextjs</p>
+    <Layout title="Context">
+      <p>Context Page</p>
     </Layout>
   );
 };
 
-export default Home;
+export default Context;
